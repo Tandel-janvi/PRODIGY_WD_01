@@ -1,0 +1,75 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: monospace;
+            line-height: 1.6;
+        }
+
+        #navbar{
+            font-family: cursive;
+            position: fixed;
+            top:0;
+            left: 0;
+            width: 100%;
+            background-color: #54a85b;
+            z-index: 10000;
+            transition: background-color 0.3s;
+        }
+
+        #navbar ul{
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 10px 0;
+        }
+
+        #navbar ul li{
+            margin: 0 15px;
+        }
+
+        #navbar ul li a{
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        #navbar ul li a:hover{
+            color: #171680;
+        }
+
+        section{
+            height: 100vh;
+            padding: 50px;
+            text-align: center;
+        }
+
+        
+
+        #about{
+            background: rgb(34,48,195);
+            background: linear-gradient(0deg, rgba(34,48,195,1) 0%, rgba(49,193,185,1) 46%, rgba(253,187,45,1) 100%);
+        }
+
+        #service{
+            background: rgb(63,94,251);
+            background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(114,27,154,1) 49%, rgba(252,70,107,1) 100%);
+        }
+
+        #contact{
+            background: rgb(238,174,202);
+            background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(194,180,217,1) 49%, rgba(148,187,233,1) 100%);
+        }
+
+        .scrolled{
+            background-color: #e97474 !important;
+        }
+
+        .scrolled a{
+            color: #043604 !important;
+        }
